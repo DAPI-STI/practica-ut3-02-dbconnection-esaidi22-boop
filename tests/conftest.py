@@ -1,7 +1,7 @@
 import os
 import pytest
 
-from src.db import get_connection
+from sti_incidencias.db import get_connection
 
 
 def _db_config_present() -> bool:
